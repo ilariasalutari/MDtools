@@ -150,11 +150,3 @@ plt.setp(p.get_legend().get_title(),fontsize='11')
 fig = p.get_figure()
 fig.savefig(dic_input['out_file'], dpi=300) 
 
-
-#plott = (
-#    so.Plot(distances_to_plot, x="time_ns", y="Distance", color="Atoms")
-#    .add(so.Line(linewidth=0.7))
-#    .label(x="Time (ns)", y="Distance (Å)")
-#    .theme(sns.axes_style("whitegrid"))
-#    .save(dic_input['out_file'], dpi=300)
-#)
